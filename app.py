@@ -6,21 +6,21 @@ import matplotlib.pyplot as plt
 import requests
 import seaborn as sns
 
-col1,col2 = st.columns(2)
-with col1:
+#col1,col2 = st.columns(2)
+#with col1:
     ''' ## Chat analysis
     Here we find Overal stats, Monthly and Daily activity,
     Most uses Word, Most Active User and Avialabel timming '''
-with col2:
+#with col2:
 # Lotti_file image
-    def load_lottieurl(url: str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-    lottie_url2 = "https://assets9.lottiefiles.com/packages/lf20_QgETPxz4nq.json"
+#    def load_lottieurl(url: str):
+#        r = requests.get(url)
+#        if r.status_code != 200:
+#            return None
+#        return r.json()
+#    lottie_url2 = "https://assets9.lottiefiles.com/packages/lf20_QgETPxz4nq.json"
 
-    st_lottie(load_lottieurl(lottie_url2),height=200)
+#    st_lottie(load_lottieurl(lottie_url2),height=200)
 
 
 # side Bar
