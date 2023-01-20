@@ -8,9 +8,9 @@ import seaborn as sns
 
 #col1,col2 = st.columns(2)
 #with col1:
-    ''' ## Chat analysis
-    Here we find Overal stats, Monthly and Daily activity,
-    Most uses Word, Most Active User and Avialabel timming '''
+#    ''' ## Chat analysis
+#    Here we find Overal stats, Monthly and Daily activity,
+#    Most uses Word, Most Active User and Avialabel timming '''
 #with col2:
 # Lotti_file image
 #    def load_lottieurl(url: str):
