@@ -86,7 +86,7 @@ def most_busy_users(df):
 
 def wordcloud(selected_user,df):
 
-    f = open('whatsapp_analyzer\stopwords.txt','r')
+    f = open('stopwords.txt','r')
     stopwords = f.read()
 
     if selected_user != 'Overall':
@@ -110,7 +110,7 @@ def wordcloud(selected_user,df):
 
 def most_common_words(selected_user,df):
 
-    f = open('whatsapp_analyzer\stopwords.txt','r')
+    f = open('stopwords.txt','r')
     stop_words = f.read()
 
     if selected_user != 'Overall':
